@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page ~ Kelas X PPLG Samsung</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Fonts Awosome -->
+    <script src="https://kit.fontawesome.com/bd2b93a447.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="dist/output.css">
+
+    
+</head>
+<body class="font-poppins overflow-x-hidden" id="home">
+    
+    <!-- Awal Header -->
+    <header id="header" class="bg-transparent bg-cyan-600 absolute top-0 left-0 w-full flex items-center justify-center z-10">
+        
+        <div class="container w-full">
+
+            <div class="flex items-center justify-between relative pl-4">
+                <div class="px-4 w-full">
+                    <a href="#" class="font-bold text-xl text-slate-100 py-6 relative flex items-center group font-pacifico">
+                        <h2 class="pl-2 transition duration-300 group-hover:text-slate-300">X PPLG SAMSUNG</h2>
+                    </a>
+                </div>
+                
+                <nav id="topnav" class="hidden lg:flex items-center justify-center text-slate-100 font-semibold">
+                    <div class="px-4 w-full">
+                        <ul class="flex text-lg">
+                            <li class="px-4 hover:text-slate-300">
+                                <a href="#home">Home</a>
+                            </li>
+                            <li class="px-4 hover:text-slate-300">
+                                <a href="#about">About</a>
+                            </li>
+                            <li class="px-4 hover:text-slate-300">
+                                <a href="#structure">Structure</a>
+                            </li>
+                            <li class="px-4 hover:text-slate-300">
+                                <a href="#activity">Activity</a>
+                            </li>
+                            <li class="px-4 hover:text-slate-300">
+                                <a href="#gallery">Gallery</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div id="container-hambuger" class="flex items-center px-4">
+                    <button class="block absolute right-4 lg:hidden" id="hambuger">
+                        <span id="hamb-1" class="hambuger-line origin-top-left"></span>
+                        <span id="hamb-2" class="hambuger-line"></span>
+                        <span id="hamb-3" class="hambuger-line origin-bottom-left"></span>
+                    </button>
+                </div>
+
+                <nav id="sidenav"
+                    class="h-full fixed py-5 p-6 bg-cyan-600 shadow-lg max-w-[250px] w-full top-0 right-0 text-slate-800 -z-10 translate-x-full transition duration-300 ">
+                    <ul class="block mt-16">
+                        <li class="group">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="group">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="group">
+                            <a href="#structure" class="nav-link ">Structure</a>
+                        </li>
+                        <li class="group">
+                            <a href="#activity" class="nav-link">Activity</a>
+                        </li>
+                        <li class="group">
+                            <a href="#gallery" class="nav-link">Gallery</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        
+    </header>
+    <!-- AKhir Header -->
+
+    <!-- BG -->
+    <div class="w-full h-full fixed -z-10">
+        <div id="bg-img" class="box-content pb-[300px] absolute h-full w-full bg-[center_bottom_5rem] bg-img-1 bg-cover blur-[3px]">
+        </div>
+    </div>
+    <!-- BG -->
+
+    <!-- Welcome Section -->
+    <section id="welcome" class="pb-36">
+        <div class="w-full p-4">
+            <div class="flex flex-col items-center justify-center">
+                <div class="w-full h-1/2 absolute top-1/2">
+                    <h1 id="frist-text" class="welcome-text"></h1>
+
+                    <h1 id="second-text" class="welcome-text -mt-7"></h1>
+
+                    <svg id="kelas" class="px-2 md:px-10 lg:px-[12rem]" viewBox="0 0 591 57" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="path-1-outside-1_3_60" maskUnits="userSpaceOnUse" x="0.149994" y="0.579998">
+                        <rect fill="white" x="0.149994" y="0.579998" width="590" height="56"/>
+                        <path d="M28.34 28.64L43.32 53H36.11L24.42 33.96L13.29 53H6.21999L21.13 28.64L6.14999 4.21H13.29L25.05 23.32L36.25 4.21H43.39L28.34 28.64Z"/>
+                        <path d="M103.149 18.49C103.149 22.55 101.749 25.9333 98.9487 28.64C96.1953 31.3 91.972 32.63 86.2787 32.63H76.8987V53H70.5287V4.21H86.2787C91.7853 4.21 95.962 5.54 98.8087 8.2C101.702 10.86 103.149 14.29 103.149 18.49ZM86.2787 27.38C89.8253 27.38 92.4387 26.61 94.1187 25.07C95.7987 23.53 96.6387 21.3367 96.6387 18.49C96.6387 12.47 93.1853 9.46 86.2787 9.46H76.8987V27.38H86.2787Z"/>
+                        <path d="M143.686 18.49C143.686 22.55 142.286 25.9333 139.486 28.64C136.732 31.3 132.509 32.63 126.816 32.63H117.436V53H111.066V4.21H126.816C132.322 4.21 136.499 5.54 139.346 8.2C142.239 10.86 143.686 14.29 143.686 18.49ZM126.816 27.38C130.362 27.38 132.976 26.61 134.656 25.07C136.336 23.53 137.176 21.3367 137.176 18.49C137.176 12.47 133.722 9.46 126.816 9.46H117.436V27.38H126.816Z"/>
+                        <path d="M157.973 47.82H175.053V53H151.603V4.21H157.973V47.82Z"/>
+                        <path d="M218.778 18.35C217.424 15.5033 215.464 13.31 212.898 11.77C210.331 10.1833 207.344 9.39 203.938 9.39C200.531 9.39 197.451 10.1833 194.698 11.77C191.991 13.31 189.844 15.55 188.258 18.49C186.718 21.3833 185.948 24.7433 185.948 28.57C185.948 32.3967 186.718 35.7567 188.258 38.65C189.844 41.5433 191.991 43.7833 194.698 45.37C197.451 46.91 200.531 47.68 203.938 47.68C208.698 47.68 212.618 46.2567 215.698 43.41C218.778 40.5633 220.574 36.7133 221.088 31.86H201.628V26.68H227.878V31.58C227.504 35.5933 226.244 39.28 224.098 42.64C221.951 45.9533 219.128 48.59 215.628 50.55C212.128 52.4633 208.231 53.42 203.938 53.42C199.411 53.42 195.281 52.37 191.548 50.27C187.814 48.1233 184.851 45.16 182.658 41.38C180.511 37.6 179.438 33.33 179.438 28.57C179.438 23.81 180.511 19.54 182.658 15.76C184.851 11.9333 187.814 8.97 191.548 6.87C195.281 4.72333 199.411 3.65 203.938 3.65C209.118 3.65 213.691 4.93333 217.658 7.5C221.671 10.0667 224.588 13.6833 226.408 18.35H218.778Z"/>
+                        <path d="M270.432 53.49C267.212 53.49 264.319 52.93 261.752 51.81C259.232 50.6433 257.249 49.0567 255.802 47.05C254.356 44.9967 253.609 42.64 253.562 39.98H260.352C260.586 42.2667 261.519 44.2033 263.152 45.79C264.832 47.33 267.259 48.1 270.432 48.1C273.466 48.1 275.846 47.3533 277.572 45.86C279.346 44.32 280.232 42.36 280.232 39.98C280.232 38.1133 279.719 36.5967 278.692 35.43C277.666 34.2633 276.382 33.3767 274.842 32.77C273.302 32.1633 271.226 31.51 268.612 30.81C265.392 29.97 262.802 29.13 260.842 28.29C258.929 27.45 257.272 26.1433 255.872 24.37C254.519 22.55 253.842 20.1233 253.842 17.09C253.842 14.43 254.519 12.0733 255.872 10.02C257.226 7.96666 259.116 6.38 261.542 5.26C264.016 4.14 266.839 3.58 270.012 3.58C274.586 3.58 278.319 4.72333 281.212 7.01C284.152 9.29667 285.809 12.33 286.182 16.11H279.182C278.949 14.2433 277.969 12.61 276.242 11.21C274.516 9.76333 272.229 9.04 269.382 9.04C266.722 9.04 264.552 9.74 262.872 11.14C261.192 12.4933 260.352 14.4067 260.352 16.88C260.352 18.6533 260.842 20.1 261.822 21.22C262.849 22.34 264.086 23.2033 265.532 23.81C267.026 24.37 269.102 25.0233 271.762 25.77C274.982 26.6567 277.572 27.5433 279.532 28.43C281.492 29.27 283.172 30.6 284.572 32.42C285.972 34.1933 286.672 36.62 286.672 39.7C286.672 42.08 286.042 44.32 284.782 46.42C283.522 48.52 281.656 50.2233 279.182 51.53C276.709 52.8367 273.792 53.49 270.432 53.49Z"/>
+                        <path d="M324.886 42.15H303.606L299.686 53H292.966L310.606 4.49H317.956L335.526 53H328.806L324.886 42.15ZM323.066 36.97L314.246 12.33L305.426 36.97H323.066Z"/>
+                        <path d="M392.704 4.56V53H386.334V16.88L370.234 53H365.754L349.584 16.81V53H343.214V4.56H350.074L367.994 44.6L385.914 4.56H392.704Z"/>
+                        <path d="M418.977 53.49C415.757 53.49 412.864 52.93 410.297 51.81C407.777 50.6433 405.794 49.0567 404.347 47.05C402.901 44.9967 402.154 42.64 402.107 39.98H408.897C409.131 42.2667 410.064 44.2033 411.697 45.79C413.377 47.33 415.804 48.1 418.977 48.1C422.011 48.1 424.391 47.3533 426.117 45.86C427.891 44.32 428.777 42.36 428.777 39.98C428.777 38.1133 428.264 36.5967 427.237 35.43C426.211 34.2633 424.927 33.3767 423.387 32.77C421.847 32.1633 419.771 31.51 417.157 30.81C413.937 29.97 411.347 29.13 409.387 28.29C407.474 27.45 405.817 26.1433 404.417 24.37C403.064 22.55 402.387 20.1233 402.387 17.09C402.387 14.43 403.064 12.0733 404.417 10.02C405.771 7.96666 407.661 6.38 410.087 5.26C412.561 4.14 415.384 3.58 418.557 3.58C423.131 3.58 426.864 4.72333 429.757 7.01C432.697 9.29667 434.354 12.33 434.727 16.11H427.727C427.494 14.2433 426.514 12.61 424.787 11.21C423.061 9.76333 420.774 9.04 417.927 9.04C415.267 9.04 413.097 9.74 411.417 11.14C409.737 12.4933 408.897 14.4067 408.897 16.88C408.897 18.6533 409.387 20.1 410.367 21.22C411.394 22.34 412.631 23.2033 414.077 23.81C415.571 24.37 417.647 25.0233 420.307 25.77C423.527 26.6567 426.117 27.5433 428.077 28.43C430.037 29.27 431.717 30.6 433.117 32.42C434.517 34.1933 435.217 36.62 435.217 39.7C435.217 42.08 434.587 44.32 433.327 46.42C432.067 48.52 430.201 50.2233 427.727 51.53C425.254 52.8367 422.337 53.49 418.977 53.49Z"/>
+                        <path d="M450.821 4.21V35.08C450.821 39.42 451.871 42.64 453.971 44.74C456.118 46.84 459.081 47.89 462.861 47.89C466.595 47.89 469.511 46.84 471.611 44.74C473.758 42.64 474.831 39.42 474.831 35.08V4.21H481.201V35.01C481.201 39.07 480.384 42.5 478.751 45.3C477.118 48.0533 474.901 50.1067 472.101 51.46C469.348 52.8133 466.245 53.49 462.791 53.49C459.338 53.49 456.211 52.8133 453.411 51.46C450.658 50.1067 448.465 48.0533 446.831 45.3C445.245 42.5 444.451 39.07 444.451 35.01V4.21H450.821Z"/>
+                        <path d="M530.187 53H523.817L498.198 14.15V53H491.828V4.14H498.198L523.817 42.92V4.14H530.187V53Z"/>
+                        <path d="M578.006 18.35C576.653 15.5033 574.693 13.31 572.126 11.77C569.56 10.1833 566.573 9.39 563.166 9.39C559.76 9.39 556.68 10.1833 553.926 11.77C551.22 13.31 549.073 15.55 547.486 18.49C545.946 21.3833 545.176 24.7433 545.176 28.57C545.176 32.3967 545.946 35.7567 547.486 38.65C549.073 41.5433 551.22 43.7833 553.926 45.37C556.68 46.91 559.76 47.68 563.166 47.68C567.926 47.68 571.846 46.2567 574.926 43.41C578.006 40.5633 579.803 36.7133 580.316 31.86H560.856V26.68H587.106V31.58C586.733 35.5933 585.473 39.28 583.326 42.64C581.18 45.9533 578.356 48.59 574.856 50.55C571.356 52.4633 567.46 53.42 563.166 53.42C558.64 53.42 554.51 52.37 550.776 50.27C547.043 48.1233 544.08 45.16 541.886 41.38C539.74 37.6 538.666 33.33 538.666 28.57C538.666 23.81 539.74 19.54 541.886 15.76C544.08 11.9333 547.043 8.97 550.776 6.87C554.51 4.72333 558.64 3.65 563.166 3.65C568.346 3.65 572.92 4.93333 576.886 7.5C580.9 10.0667 583.816 13.6833 585.636 18.35H578.006Z"/>
+                        </mask>
+                        <path d="M28.34 28.64L43.32 53H36.11L24.42 33.96L13.29 53H6.21999L21.13 28.64L6.14999 4.21H13.29L25.05 23.32L36.25 4.21H43.39L28.34 28.64Z" stroke="white" stroke-width="3" mask="url(#path-1-outside-1_3_60)"/>
+                        <path d="M103.149 18.49C103.149 22.55 101.749 25.9333 98.9487 28.64C96.1953 31.3 91.972 32.63 86.2787 32.63H76.8987V53H70.5287V4.21H86.2787C91.7853 4.21 95.962 5.54 98.8087 8.2C101.702 10.86 103.149 14.29 103.149 18.49ZM86.2787 27.38C89.8253 27.38 92.4387 26.61 94.1187 25.07C95.7987 23.53 96.6387 21.3367 96.6387 18.49C96.6387 12.47 93.1853 9.46 86.2787 9.46H76.8987V27.38H86.2787Z" stroke="white" stroke-width="3" mask="url(#path-1-outside-1_3_60)"/>
+                        <path d="M143.686 18.49C143.686 22.55 142.286 25.9333 139.486 28.64C136.732 31.3 132.509 32.63 126.816 32.63H117.436V53H111.066V4.21H126.816C132.322 4.21 136.499 5.54 139.346 8.2C142.239 10.86 143.686 14.29 143.686 18.49ZM126.816 27.38C130.362 27.38 132.976 26.61 134.656 25.07C136.336 23.53 137.176 21.3367 137.176 18.49C137.176 12.47 133.722 9.46 126.816 9.46H117.436V27.38H126.816Z" stroke="white" stroke-width="3" mask="url(#path-1-outside-1_3_60)"/>
+                        <path d="M157.973 47.82H175.053V53H151.603V4.21H157.973V47.82Z" stroke="white" stroke-width="3" mask="url(#path-1-outside-1_3_60)"/>
+                        <path d="M218.778 18.35C217.424 15.5033 215.464 13.31 212.898 11.77C210.331 10.1833 207.344 9.39 203.938 9.39C200.531 9.39 197.451 10.1833 194.698 11.77C191.991 13.31 189.844 15.55 188.258 18.49C186.718 21.3833 185.948 24.7433 185.948 28.57C185.948 32.3967 186.718 35.7567 188.258 38.65C189.844 41.5433 191.991 43.7833 194.698 45.37C197.451 46.91 200.531 47.68 203.938 47.68C208.698 47.68 212.618 46.2567 215.698 43.41C218.778 40.5633 220.574 36.7133 221.088 31.86H201.628V26.68H227.878V31.58C227.504 35.5933 226.244 39.28 224.098 42.64C221.951 45.9533 219.128 48.59 215.628 50.55C212.128 52.4633 208.231 53.42 203.938 53.42C199.411 53.42 195.281 52.37 191.548 50.27C187.814 48.1233 184.851 45.16 182.658 41.38C180.511 37.6 179.438 33.33 179.438 28.57C179.438 23.81 180.511 19.54 182.658 15.76C184.851 11.9333 187.814 8.97 191.548 6.87C195.281 4.72333 199.411 3.65 203.938 3.65C209.118 3.65 213.691 4.93333 217.658 7.5C221.671 10.0667 224.588 13.6833 226.408 18.35H218.778Z" stroke="white" stroke-width="3" mask="url(#path-1-outside-1_3_60)"/>
+                        <path d="M270.432 53.49C267.212 53.49 264.319 52.93 261.752 51.81C259.232 50.6433 257.249 49.0567 255.802 47.05C254.356 44.9967 253.609 42.64 253.562 39.98H260.352C260.586 42.2667 261.519 44.2033 263.152 45.79C264.832 47.33 267.259 48.1 270.432 48.1C273.466 48.1 275.846 47.3533 277.572 45.86C279.346 44.32 280.232 42.36 280.232 39.98C280.232 38.1133 279.719 36.5967 278.692 35.43C277.666 34.2633 276.382 33.3767 274.842 32.77C273.302 32.1633 271.226 31.51 268.612 30.81C265.392 29.97 262.802 29.13 260.842 28.29C258.929 27.45 257.272 26.1433 255.872 24.37C254.519 22.55 253.842 20.1233 253.842 17.09C253.842 14.43 254.519 12.0733 255.872 10.02C257.226 7.96666 259.116 6.38 261.542 5.26C264.016 4.14 266.839 3.58 270.012 3.58C274.586 3.58 278.319 4.72333 281.212 7.01C284.152 9.29667 285.809 12.33 286.182 16.11H279.182C278.949 14.2433 277.969 12.61 276.242 11.21C274.516 9.76333 272.229 9.04 269.382 9.04C266.722 9.04 264.552 9.74 262.872 11.14C261.192 12.4933 260.352 14.4067 260.352 16.88C260.352 18.6533 260.842 20.1 261.822 21.22C262.849 22.34 264.086 23.2033 265.532 23.81C267.026 24.37 269.102 25.0233 271.762 25.77C274.982 26.6567 277.572 27.5433 279.532 28.43C281.492 29.27 283.172 30.6 284.572 32.42C285.972 34.1933 286.672 36.62 286.672 39.7C286.672 42.08 286.042 44.32 284.782 46.42C283.522 48.52 281.656 50.2233 279.182 51.53C276.709 52.8367 273.792 53.49 270.432 53.49Z" stroke="white" stroke-width="3" mask="url(#path-1-outside-1_3_60)"/>
+                        <path d="M324.886 42.15H303.606L299.686 53H292.966L310.606 4.49H317.956L335.526 53H328.806L324.886 42.15ZM323.066 36.97L314.246 12.33L305.426 36.97H323.066Z" stroke="white" stroke-width="3" mask="url(#path-1-outside-1_3_60)"/>
+                        <path d="M392.704 4.56V53H386.334V16.88L370.234 53H365.754L349.584 16.81V53H343.214V4.56H350.074L367.994 44.6L385.914 4.56H392.704Z" stroke="white" stroke-width="3" mask="url(#path-1-outside-1_3_60)"/>
+                        <path d="M418.977 53.49C415.757 53.49 412.864 52.93 410.297 51.81C407.777 50.6433 405.794 49.0567 404.347 47.05C402.901 44.9967 402.154 42.64 402.107 39.98H408.897C409.131 42.2667 410.064 44.2033 411.697 45.79C413.377 47.33 415.804 48.1 418.977 48.1C422.011 48.1 424.391 47.3533 426.117 45.86C427.891 44.32 428.777 42.36 428.777 39.98C428.777 38.1133 428.264 36.5967 427.237 35.43C426.211 34.2633 424.927 33.3767 423.387 32.77C421.847 32.1633 419.771 31.51 417.157 30.81C413.937 29.97 411.347 29.13 409.387 28.29C407.474 27.45 405.817 26.1433 404.417 24.37C403.064 22.55 402.387 20.1233 402.387 17.09C402.387 14.43 403.064 12.0733 404.417 10.02C405.771 7.96666 407.661 6.38 410.087 5.26C412.561 4.14 415.384 3.58 418.557 3.58C423.131 3.58 426.864 4.72333 429.757 7.01C432.697 9.29667 434.354 12.33 434.727 16.11H427.727C427.494 14.2433 426.514 12.61 424.787 11.21C423.061 9.76333 420.774 9.04 417.927 9.04C415.267 9.04 413.097 9.74 411.417 11.14C409.737 12.4933 408.897 14.4067 408.897 16.88C408.897 18.6533 409.387 20.1 410.367 21.22C411.394 22.34 412.631 23.2033 414.077 23.81C415.571 24.37 417.647 25.0233 420.307 25.77C423.527 26.6567 426.117 27.5433 428.077 28.43C430.037 29.27 431.717 30.6 433.117 32.42C434.517 34.1933 435.217 36.62 435.217 39.7C435.217 42.08 434.587 44.32 433.327 46.42C432.067 48.52 430.201 50.2233 427.727 51.53C425.254 52.8367 422.337 53.49 418.977 53.49Z" stroke="white" stroke-width="3" mask="url(#path-1-outside-1_3_60)"/>
+                        <path d="M450.821 4.21V35.08C450.821 39.42 451.871 42.64 453.971 44.74C456.118 46.84 459.081 47.89 462.861 47.89C466.595 47.89 469.511 46.84 471.611 44.74C473.758 42.64 474.831 39.42 474.831 35.08V4.21H481.201V35.01C481.201 39.07 480.384 42.5 478.751 45.3C477.118 48.0533 474.901 50.1067 472.101 51.46C469.348 52.8133 466.245 53.49 462.791 53.49C459.338 53.49 456.211 52.8133 453.411 51.46C450.658 50.1067 448.465 48.0533 446.831 45.3C445.245 42.5 444.451 39.07 444.451 35.01V4.21H450.821Z" stroke="white" stroke-width="3" mask="url(#path-1-outside-1_3_60)"/>
+                        <path d="M530.187 53H523.817L498.198 14.15V53H491.828V4.14H498.198L523.817 42.92V4.14H530.187V53Z" stroke="white" stroke-width="3" mask="url(#path-1-outside-1_3_60)"/>
+                        <path d="M578.006 18.35C576.653 15.5033 574.693 13.31 572.126 11.77C569.56 10.1833 566.573 9.39 563.166 9.39C559.76 9.39 556.68 10.1833 553.926 11.77C551.22 13.31 549.073 15.55 547.486 18.49C545.946 21.3833 545.176 24.7433 545.176 28.57C545.176 32.3967 545.946 35.7567 547.486 38.65C549.073 41.5433 551.22 43.7833 553.926 45.37C556.68 46.91 559.76 47.68 563.166 47.68C567.926 47.68 571.846 46.2567 574.926 43.41C578.006 40.5633 579.803 36.7133 580.316 31.86H560.856V26.68H587.106V31.58C586.733 35.5933 585.473 39.28 583.326 42.64C581.18 45.9533 578.356 48.59 574.856 50.55C571.356 52.4633 567.46 53.42 563.166 53.42C558.64 53.42 554.51 52.37 550.776 50.27C547.043 48.1233 544.08 45.16 541.886 41.38C539.74 37.6 538.666 33.33 538.666 28.57C538.666 23.81 539.74 19.54 541.886 15.76C544.08 11.9333 547.043 8.97 550.776 6.87C554.51 4.72333 558.64 3.65 563.166 3.65C568.346 3.65 572.92 4.93333 576.886 7.5C580.9 10.0667 583.816 13.6833 585.636 18.35H578.006Z" stroke="white" stroke-width="3" mask="url(#path-1-outside-1_3_60)"/>
+                        </svg>
+                        
+                        
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Welcome Section -->
+
+    <!-- About Section -->
+    
+    <section id="about" class="mt-[30rem] pt-36 pb-0 bg-slate-50">
+        <div class="w-full p-4">
+            <div class="flex flex-col justify-center items-center">
+                <h2 class="text-4xl text-center font-semibold tracking-wider">Tentang Kelas</h2>
+                <hr class="border-t-2 border-slate-800 w-[20rem] mt-2">
+            </div>
+        </div>
+
+        <div class="w-full px-10 py-4">
+            <div class="flex flex-wrap justify-center items-center">
+
+                <div class="w-full mt-4 p-4 lg:w-1/2">
+                    <p class="text-center text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, quaerat debitis. Beatae saepe doloremque debitis ab explicabo quaerat praesentium minus voluptas assumenda soluta! At fugiat esse quos perferendis voluptas temporibus!</p>
+                </div>
+
+                <div class="w-full mt-4 p-4 lg:w-1/2">
+                    <p class="text-center text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, quaerat debitis. Beatae saepe doloremque debitis ab explicabo quaerat praesentium minus voluptas assumenda soluta! At fugiat esse quos perferendis voluptas temporibus!</p>
+                </div>
+
+                <div class="w-full mt-4 p-4 lg:w-1/2">
+                    <p class="text-center text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, quaerat debitis. Beatae saepe doloremque debitis ab explicabo quaerat praesentium minus voluptas assumenda soluta! At fugiat esse quos perferendis voluptas temporibus!</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cbd5e1" fill-opacity="1" d="M0,64L1440,256L1440,320L0,320Z"></path></svg> -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cbd5e1" fill-opacity="1" d="M0,224L1440,96L1440,320L0,320Z"></path></svg>
+    </section>
+    <!-- About Section -->
+    
+    
+    
+    <!-- Struktur Section -->
+    
+    <section id="structure" class="pt-32 pb-0 bg-slate-300">
+
+        <div class="w-full p-4">
+            <div class="flex flex-col justify-center items-center text-center">
+                <h2 class="text-4xl font-semibold tracking-wider">Struktur Kelas</h2>
+                <hr class="border-t-2 border-slate-800 w-[19rem]">
+                <p class="mt-4 text-slate-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel esse, recusandae ipsam dolor error ex.</p>
+            </div>
+        </div>
+
+        <div class="w-full px-4 pt-4 pb-8 flex flex-wrap justify-center items-center">
+            
+            <div class="flex mt-4 mx-4 bg-slate-100 w-full rounded-md shadow-lg md:w-1/2 lg:w-1/3">
+                <img src="img/man.png" alt="profile" class="rounded-l-md">
+                <div class="pl-4 pt-4">
+                    <h4 class="font-semibold text-lg">Jono Purwokerto</h4>
+                    <p class="mt-1">Jabatannya</p>
+                    <q class="block mt-1 italic">Every thing your imagine is real</q>
+                </div>
+            </div>
+            
+            <div class="flex mt-4 mx-4 bg-slate-100 w-full rounded-md shadow-lg md:w-1/2 lg:w-1/3">
+                <img src="img/man.png" alt="profile" class="rounded-l-md">
+                <div class="pl-4 pt-4">
+                    <h4 class="font-semibold text-lg">Jono Purwokerto</h4>
+                    <p class="mt-1">Jabatannya</p>
+                    <q class="block mt-1 italic">Every thing your imagine is real</q>
+                </div>
+            </div>
+            
+            <div class="flex mt-4 mx-4 bg-slate-100 w-full rounded-md shadow-lg md:w-1/2 lg:w-1/3">
+                <img src="img/man.png" alt="profile" class="rounded-l-md">
+                <div class="pl-4 pt-4">
+                    <h4 class="font-semibold text-lg">Jono Purwokerto</h4>
+                    <p class="mt-1">Jabatannya</p>
+                    <q class="block mt-1 italic">Every thing your imagine is real</q>
+                </div>
+            </div>
+
+        </div>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f1f5f9" fill-opacity="1" d="M0,96L1440,224L1440,320L0,320Z"></path></svg> -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f1f5f9" fill-opacity="1" d="M0,64L21.8,74.7C43.6,85,87,107,131,122.7C174.5,139,218,149,262,138.7C305.5,128,349,96,393,90.7C436.4,85,480,107,524,117.3C567.3,128,611,128,655,122.7C698.2,117,742,107,785,112C829.1,117,873,139,916,176C960,213,1004,267,1047,240C1090.9,213,1135,107,1178,74.7C1221.8,43,1265,85,1309,96C1352.7,107,1396,85,1418,74.7L1440,64L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path>
+        </svg>
+    </section>
+
+    <!-- Struktur Section -->
+
+
+    <!-- Aktivitas Section -->
+    <section id="activity" class="bg-slate-100 pt-32">
+
+        <div class="w-full px-4">
+            <div class="flex flex-col justify-center items-center text-center">
+                <h2 class="text-4xl text-center font-semibold tracking-wider">Kegiatan Kelas</h2>
+                <hr class="border-t-2 border-slate-800 w-[20rem] mt-2">
+                <p class="mt-4 text-slate-500 text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque esse eius, a reprehenderit tenetur repudiandae.</p>
+            </div>
+        </div>
+
+        <div class="w-full p-4">
+
+            <div class="w-full p-4">
+            </div>
+
+            <div class="scroll-div">
+                
+                <div class="card md:ml-[10.5rem] lg:ml-[25rem]">
+                    <img src="img/foto-1.jpeg" alt="..." class="w-full">
+                    <div class="px-6 py-4">
+                        <h4 class="text-xl font font-semibold mb-2">Hello World</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vitae recusandae impedit tempora nihil perspiciatis cumque quisquam molestiae dolorem. Sunt?</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/foto-1.jpeg" alt="..." class="w-full">
+                    <div class="px-6 py-4">
+                        <h4 class="text-xl font font-semibold mb-2]">Hello World</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vitae recusandae impedit tempora nihil perspiciatis cumque quisquam molestiae dolorem. Sunt?</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/foto-1.jpeg" alt="..." class="w-full">
+                    <div class="px-6 py-4">
+                        <h4 class="text-xl font font-semibold mb-2]">Hello World</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vitae recusandae impedit tempora nihil perspiciatis cumque quisquam molestiae dolorem. Sunt?</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/foto-1.jpeg" alt="..." class="w-full">
+                    <div class="px-6 py-4">
+                        <h4 class="text-xl font font-semibold mb-2]">Hello World</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vitae recusandae impedit tempora nihil perspiciatis cumque quisquam molestiae dolorem. Sunt?</p>
+                    </div>
+                </div>
+
+                <div class="card md:mr-[10.5rem] lg:mr-[25rem]">
+                    <img src="img/foto-1.jpeg" alt="..." class="w-full">
+                    <div class="px-6 py-4">
+                        <h4 class="text-xl font font-semibold mb-2]">Hello World</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vitae recusandae impedit tempora nihil perspiciatis cumque quisquam molestiae dolorem. Sunt?</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cbd5e1" fill-opacity="1" d="M0,128L1440,224L1440,320L0,320Z"></path></svg>
+
+    </section>
+    <!-- Aktivitas Section -->
+    
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="bg-slate-300 pt-32 pb-0">
+
+        <div class="w-full px-4">
+            <div class="flex flex-col justify-center items-center text-center">
+                <h2 class="font-semibold text-4xl tracking-wider">Galleri</h2>
+                <hr class="border-t-2 border-slate-800 w-[10rem]">
+                <p class="mt-4 text-md text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. A provident esse quos illum, veritatis dignissimos?</p>
+            </div>
+        </div>
+        
+        <div class="w-full p-4">
+
+            <div class="flex justify-center items-center flex-wrap">
+
+                <div class="img-border from-cyan-500 to-blue-500">
+                    <img src="img/foto-1.jpeg" alt="">
+                </div>
+                
+                <div class="img-border from-cyan-500 via-blue-500 to-indigo-500">
+                    <img src="img/foto-1.jpeg" alt="">
+                </div>
+                
+                <div class="img-border from-pink-500 via-violet-500 to-blue-500">
+                    <img src="img/foto-1.jpeg" alt="">
+                </div>
+
+                <!-- <button class="bg-slate-100 p-4" onclick="playAudio()">Play</button> -->
+                <!-- <button class="bg-slate-100 p-4" onclick="stopAudio()">Stop</button> -->
+
+            </div>
+    
+                
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#164e63" fill-opacity="1" d="M0,64L24,85.3C48,107,96,149,144,154.7C192,160,240,128,288,133.3C336,139,384,181,432,165.3C480,149,528,75,576,69.3C624,64,672,128,720,165.3C768,203,816,213,864,213.3C912,213,960,203,1008,181.3C1056,160,1104,128,1152,133.3C1200,139,1248,181,1296,170.7C1344,160,1392,96,1416,64L1440,32L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
+
+        
+    </section>
+    <!-- Gallery Section -->
+
+
+    <!-- Footer -->
+    <footer class="bg-cyan-900 py-32 px-4">
+            <div class="flex flex-wrap justify-center items-center text-slate-200 px-12">
+
+                <div class="mb-12 w-full px-6 lg:w-1/3">
+                    <h4 class="text-4xl font-semibold">X PPLG SAMSUNG</h4>
+                    <p class="mt-4">
+                        <i class="fa-solid fa-location-dot mr-2"></i> SMK Negeri 2, Jl. Pattimura No.14, Cinta Raja, Kec. Sail, Kota Pekanbaru, Riau.</p>
+                </div>
+    
+                <div class=" mb-12 w-full px-6 lg:w-1/3">
+                    <h5 class="text-2xl font-semibold">Tentang Kelas</h5>
+                    <ul class="mt-4">
+                        <li class="mb-4">Programming</li>
+                        <li class="mb-4">Teknologi</li>
+                        <li class="mb-4">Design</li>
+                        <li class="mb-4">Game Develop</li>
+                    </ul>
+                </div>
+
+                <div class="mb-12 w-full px-6 lg:w-1/3">
+                    <h5 class="text-2xl font-semibold">Tautan</h5>
+                    <ul>
+                        <li class="mt-4">
+                            <a href="#home" class="underline hover:text-slate-300">Home</a>
+                        </li>
+                        <li class="mt-4">
+                            <a class="underline hover:text-slate-300" href="#about">About</a>
+                        </li>
+                        <li class="mt-4">
+                            <a class="underline hover:text-slate-300" href="#structure">structure</a>
+                        </li>
+                        <li class="mt-4">
+                            <a class="underline hover:text-slate-300" href="#activity">Activity</a>
+                        </li>
+                        <li class="mt-4">
+                            <a class="underline hover:text-slate-300" href="#gallery">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <hr class="border-t-2 w-[100%] border-cyan-700">
+                <div class="w-full text-center mt-4">
+                    <p>Dibuat dengan ❤️ oleh <a href="https://www.youtube.com/channel/UCkJRdEJ57GxshG3Rirq_NDA" class="text-cyan-500 hover:text-cyan-600">Muhammad El-Idrisi</a> </p>
+                </div>
+    
+            </div>
+    </footer>
+    <!-- Footer -->
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="dist/tilt.jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="dist/script.js"></script>
+
+    <script>
+
+    const tilt = $('.card').tilt({
+        glare: true,
+        maxGlare: 0.5,
+        scale: 0.85
+    });
+
+    const tilt2 = $('.img-border').tilt({
+        // glare: true,
+        // maxGlare: 0.8,
+        // scale: 1.1,
+        // reset: true
+    })
+
+    // const imgBorder = document.querySelectorAll('.img-border');
+
+    // imgBorder.forEach(box => {
+    //     const img = document.querySelector('.img-border img')
+    //     box.addEventListener("mouseout", () => {
+    //         img.style.transform = 'scale(1)';
+    //         console.log("Hello")
+    //     })
+    // });
+
+    </script>
+
+    <script>
+        var typed = new Typed('#frist-text', {
+        // Waits 1000ms after typing "First"
+        strings: [
+            'Halo,^2000', 
+            'Di^3000',
+            ''
+        ],
+
+        smartBackspace: false,
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: false
+
+    });
+
+        var typed = new Typed('#second-text', {
+        // Waits 1000ms after typing "First"
+        strings: [
+            'Selamat Datang', 
+            'Kelas^2000',
+            ''
+        ],
+
+        smartBackspace: false,
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: false
+
+    });
+    </script>
+</body>
+</html>
